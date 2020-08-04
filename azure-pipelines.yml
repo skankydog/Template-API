@@ -10,8 +10,8 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+- script: echo Starting the pipeline for Template-API
+  displayName: 'script run...'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
