@@ -21,7 +21,6 @@ namespace DatingApp.API.Controllers
 
         }
 
-        [Authorize(Roles = "VIP")]
         [HttpGet("test")]
         public IActionResult Test()
         {
