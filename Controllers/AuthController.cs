@@ -1,8 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using DatingApp.API.Data;
-using DatingApp.API.Models;
-using DatingApp.API.Dtos;
 using System.Security.Claims;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -13,6 +10,9 @@ using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using System.Collections.Generic;
+using DatingApp.API.Data;
+using DatingApp.API.Models;
+using DatingApp.API.Dtos;
 
 namespace DatingApp.API.Controllers
 {
